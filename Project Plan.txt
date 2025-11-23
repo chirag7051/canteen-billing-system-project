@@ -1,0 +1,18 @@
+1. Create & Display Menu — Bhanuprakash
+• Create a simple menu inside the Python program
+• Show all items with item number and price
+2. Take Customer Order — Chirag
+• Let user choose items by number or name
+• Ask for quantity
+• Calculate cost for each selected item
+3. Generate Bill — Manikanta & Sai Mohith
+• Display the final bill with:
+• Item name
+• Quantity
+• Price
+• Total for each item
+• Calculate the final total amount
+ 4. Save Bill to Text File — Chandrakala
+• Save the completed bill in a .txt file
+• Use simple names like bill1.txt, bill2.txt, etc.
+• Include all bill details in the file

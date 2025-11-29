@@ -1,6 +1,10 @@
 1. Create & Display Menu — Bhanuprakash
 • Create a simple menu inside the Python program
+• Welcome to Campus Food Hub
+• Your Friendly College Canteen
+• Menu:
 • Show all items with item number and price
+
 2. Take Customer Order — Chirag
 • Let user choose items by number or name
 • Ask for quantity

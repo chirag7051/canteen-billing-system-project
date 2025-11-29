@@ -1,4 +1,5 @@
-# MENU — Bhanu Prakash
+#Create & Display Menu — Bhanu Prakash
+
 menu = {
     1: ["Cheese Maggi", 110],
     2: ["Samosa", 50],
@@ -20,7 +21,7 @@ for num, item in menu.items():
     print(num, "-", item[0], "₹", item[1])
 
 
-# Take Order - Chirag
+# Take Customer Order - Chirag
 
 print("\nPlease enter the item number from the menu to add it to your order. Type 'done' when you are finished.\n")
 order = []
@@ -46,3 +47,9 @@ while True:
     price = menu[choice][1] * quantity
     order.append([menu[choice][0], quantity, menu[choice][1], price])
     print("Added!\n")
+
+#Generate Bill — Manikanta & Sai Mohith
+
+
+
+#Save Bill to Text File — Chandrakala

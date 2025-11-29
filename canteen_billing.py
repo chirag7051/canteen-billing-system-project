@@ -1,28 +1,23 @@
-    ## developing a canteen menu code -- Bhanu Prakash.
-
+# MENU — Bhanu Prakash
 menu = {
-    "Snacks": [
-        {"name": "Cheese Maggi", "cost": 110, "type": "Veg"},
-        {"name": "Samosa", "cost": 50, "type": "Veg"},
-        {"name": "Chicken Sandwich", "cost": 180, "type": "Non-Veg"}
-    ],
-    "Hot Beverages": [
-        {"name": "Filter Coffee", "cost": 80, "volume": "200ML"},
-        {"name": "Cappuccino", "cost": 150, "volume": "250ML"},
-        {"name": "Masala Chai", "cost": 40, "volume": "180ML"}
-    ],
-    "Ice Creams and Drinks": [
-        {"name": "Mango Juice", "cost": 40, "volume": "200ML"},
-        {"name": "Orange Juice", "cost": 35, "volume": "200ML"},
-        {"name": "Butterscotch Ice Cream Tub", "cost": 60, "volume": "250ML"},
-        {"name": "Chocolate Ice Cream Tub", "cost": 55, "volume": "200ML"}
-    ]
+    1: ["Cheese Maggi", 110],
+    2: ["Samosa", 50],
+    3: ["Chicken Sandwich", 180],
+    4: ["Filter Coffee", 80],
+    5: ["Cappuccino", 150],
+    6: ["Masala Chai", 40],
+    7: ["Mango Juice", 40],
+    8: ["Orange Juice", 35],
+    9: ["Butterscotch Ice Cream", 60],
+    10: ["Chocolate Ice Cream", 55]
 }
-print("Welcome to the Canteen Menu!")
 
-## next step is select item from the category.
+print("Welcome to Campus Food Hub")
+print("Your Friendly College Canteen\n")
 
-
+print("Menu:")
+for num, item in menu.items():
+    print(num, "-", item[0], "₹", item[1])
 
 
 # Take Order - Chirag

@@ -45,4 +45,7 @@ while True:
         print("Quantity must be a number!")
         continue
     quantity = int(quantity)
+    if quantity <= 0:
+        print("Quantity must be greater than 0!")
+        continue
     

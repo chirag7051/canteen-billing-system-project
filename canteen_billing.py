@@ -21,3 +21,28 @@ menu = {
 print("Welcome to the Canteen Menu!")
 
 ## next step is select item from the category.
+
+
+
+
+# Take Order - Chirag
+
+print("\nPlease enter the item number from the menu to add it to your order. Type 'done' when you are finished.\n")
+order = []
+while True:
+    choice = input("Enter item number (or 'done'): ")
+    if choice.lower() == "done":
+        break
+    if not choice.isdigit():
+        print("Invalid input! Enter a number.")
+        continue
+    choice = int(choice)
+    if choice not in menu:
+        print("Invalid item number! Try again.")
+        continue
+    quantity = input("Enter quantity: ")
+    if not quantity.isdigit():
+        print("Quantity must be a number!")
+        continue
+    quantity = int(quantity)
+    

@@ -48,4 +48,6 @@ while True:
     if quantity <= 0:
         print("Quantity must be greater than 0!")
         continue
-    
+    price = menu[choice][1] * quantity
+    order.append([menu[choice][0], quantity, menu[choice][1], price])
+    print("Added!\n")
